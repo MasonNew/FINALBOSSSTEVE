@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from 'react';
 import { Terminal as TerminalIcon, Send, Minimize2, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { TerminalMessage } from './terminal-message';
-import { useChat } from '@/hooks/use-chat';
+import { useChat } from '../../hooks/use-chat';
 
 export function Terminal() {
   const [isMinimized, setIsMinimized] = useState(false);
